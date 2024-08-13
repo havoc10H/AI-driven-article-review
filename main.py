@@ -3,20 +3,25 @@ from tkinter import filedialog, scrolledtext, messagebox
 from docx import Document
 import pandas as pd
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
 
-client = OpenAI(
-)
+# Load environment variables from .env file
+load_dotenv()
 
+# Get API key from environment variables
+api_key = os.getenv('OPENAI_API_KEY')
+
+# Initialize OpenAI client with the API key from the environment variable
+client = OpenAI(api_key=api_key)
+    
 def review_article(article_text, selected_guidelines, selected_exists):
     results = []
     
     for i, guideline in enumerate(selected_guidelines):
         exist = selected_exists[i].strip().lower()  # Get the corresponding 'exist' value and normalize it
-        print(guideline)
-        print(exist)
         
         try:
-            # Define the expectation message based on the exist value
             if exist == 'yes':
                 expectation = f"The article should have {guideline.lower()}."
             elif exist == 'no':
@@ -39,8 +44,6 @@ def review_article(article_text, selected_guidelines, selected_exists):
                     {"role": "user", "content": prompt}
                 ]
             )
-
-            # Extract the analysis from the response
             analysis = response['choices'][0]['message']['content'].strip()
 
             # Determine compliance based on the analysis and the 'exist' value
@@ -88,12 +91,31 @@ def start_review():
         file.write("\n".join([f"Guideline: {g}\nResult: {r}\nAnswer: {a}\n" for g, r, a, c in results]))
 
 def load_article():
-    file_path = filedialog.askopenfilename(filetypes=[("Word Documents", "*.txt;*.doc;*.docx")])
-    if file_path:
+    file_path = filedialog.askopenfilename(
+    filetypes=[
+            ("Word Documents", "*.docx"),
+            ("Old Word Documents", "*.doc"),
+            ("Text Files", "*.txt"),
+        ]
+    )
+
+    if not file_path:
+        messagebox.showinfo("No File Selected", "You did not select a file.")
+        return
+    
+    if file_path.endswith('.txt'):
+        try:
+            with open(file_path, 'r') as file:
+                content = file.read()
+            article_text = content
+        except Exception as e:
+            messagebox.showerror("Error", f"Failed to open text file: {e}")
+    else :
         doc = Document(file_path)
         article_text = "\n".join([para.text for para in doc.paragraphs])
-        article_input.delete("1.0", tk.END)
-        article_input.insert(tk.END, article_text)
+        
+    article_input.delete("1.0", tk.END)
+    article_input.insert(tk.END, article_text)
 
 def load_guidelines():
     file_path = filedialog.askopenfilename(filetypes=[("Excel Files", "*.xls;*.xlsx")])

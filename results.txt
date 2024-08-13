@@ -1,3 +1,223 @@
-Guideline: written in english
+Guideline: NO Jargon
+Result: Error occurred
+Answer: No
+
+Guideline: NO Complex Grammar
+Result: Error occurred
+Answer: No
+
+Guideline: NO Abbreviations
+Result: Error occurred
+Answer: No
+
+Guideline: NO Slang
+Result: Error occurred
+Answer: No
+
+Guideline: Clear consistent voice
+Result: Error occurred
+Answer: No
+
+Guideline: Use personal pronouns when appropriate - Use “we,” “our,” “you,” and “you’re” in place of your organization’s name or when referring to your reader.
+Result: Error occurred
+Answer: No
+
+Guideline: Content that all users can understand (plain language)
+Result: Error occurred
+Answer: No
+
+Guideline: Text is Grammatically correct
+Result: Error occurred
+Answer: No
+
+Guideline: Keywords (at least once)
+Result: Error occurred
+Answer: No
+
+Guideline: Write in 1st person
+Result: Error occurred
+Answer: No
+
+Guideline: Trends - it must be clear that article was recently checked
+Result: Error occurred
+Answer: No
+
+Guideline: DO NOT repeat yourself
+Result: Error occurred
+Answer: No
+
+Guideline: Active sentences
+Result: Error occurred
+Answer: No
+
+Guideline: TO BE open-ended
+Result: Error occurred
+Answer: No
+
+Guideline: Exhaustive Insights Discourage Further Contributions
+Result: Error occurred
+Answer: No
+
+Guideline: TO BE Humble
+Result: Error occurred
+Answer: No
+
+Guideline: Readers Favor Vulnerability Over Perceived Perfection in Posts
+Result: Error occurred
+Answer: No
+
+Guideline: TO BE controversial
+Result: Error occurred
+Answer: No
+
+Guideline: Controversy Sparks Engagement but Beware of the Risks
+Result: Error occurred
+Answer: No
+
+Guideline: Shape blog's culture
+Result: Error occurred
+Answer: No
+
+Guideline: Tone Sets Reader Response (post in angry and personal attacking style - reflect comment section)
+Result: Error occurred
+Answer: No
+
+Guideline: Boost Comments by Asking Direct, Thought-Provoking Questions
+Result: Error occurred
+Answer: No
+
+Guideline: Specific/Real-world exp
+Result: Error occurred
+Answer: No
+
+Guideline: Give useful resources (citations and links to resource product pages)
+Result: Error occurred
+Answer: No
+
+Guideline: Provide a specific how-to/give step-by-step
+Result: Error occurred
+Answer: No
+
+Guideline: Provide different scenarios where the product/service/advice can apply
+Result: Error occurred
+Answer: No
+
+Guideline: USE full name to each mentioned topic
+Result: Error occurred
+Answer: No
+
+Guideline: ADD img, creatives, tablets to each needed section
+Result: Error occurred
+Answer: No
+
+Guideline: ONLY original content
+Result: Error occurred
+Answer: No
+
+Guideline: Sing up with your Name, profile pic, +2 lines about yourself
+Result: Error occurred
+Answer: No
+
+Guideline: Provide with helpful info as an expert (not to repeat brand info)
+Result: Error occurred
+Answer: No
+
+Guideline: Verified Facts
+Result: Error occurred
+Answer: No
+
+Guideline: Review and check article for any significant facts and add citations or links to surveys or peer reviews as proof.
+Result: Error occurred
+Answer: No
+
+Guideline: Each article should have a clear and short TL; DR on top
+Result: Error occurred
+Answer: No
+
+Guideline: Text should be easy to skim read and scan for important/interesting bits of information.
+Result: Error occurred
+Answer: No
+
+Guideline: USE bullets & lists
+Result: Error occurred
+Answer: No
+
+Guideline: NO LONGER then 6 lines for paragraphs
+Result: Error occurred
+Answer: No
+
+Guideline: Short words
+Result: Error occurred
+Answer: No
+
+Guideline: Short setences
+Result: Error occurred
+Answer: No
+
+Guideline: Short paraghraphs
+Result: Error occurred
+Answer: No
+
+Guideline: CLEAR structure : headers, bullet points, intended quotes
+Result: Error occurred
+Answer: No
+
+Guideline: DO NOT set/change FONT size/spacing
+Result: Error occurred
+Answer: No
+
+Guideline: Keep Adequate line length (70-115 characters or 15-23 words
+Result: Error occurred
+Answer: No
+
+Guideline: USE short paragraphs and level 2/3 headers (organize text in small chunks)
+Result: Error occurred
+Answer: No
+
+Guideline: Bold  important words/sentences (at least two lines in the article)
+Result: Error occurred
+Answer: No
+
+Guideline: Line spacing and appropriate indendation can help make the text more visually appealing and easier to read
+Result: Error occurred
+Answer: No
+
+Guideline: USE Quatation marks
+Result: Error occurred
+Answer: No
+
+Guideline: Subscript text used to indicate a footnote
+Result: Error occurred
+Answer: No
+
+Guideline: USE text capitalization to change the capitalization of a word or phrase
+Result: Error occurred
+Answer: No
+
+Guideline: Clear/simple formats (black text on a white background, or similar)
+Result: Error occurred
+Answer: No
+
+Guideline: FOR TITLES : configure Word headers (outline level) for the main title and level 2/3 titles
+Result: Error occurred
+Answer: No
+
+Guideline: USE parallel syntax in the title and bullets (repetitive order prefix)
+Result: Error occurred
+Answer: No
+
+Guideline: USE Oxford commas in US orders but do not use them in UK orders
+Result: Error occurred
+Answer: No
+
+Guideline: USE emdash to set off an idea or phrase
+Result: Error occurred
+Answer: No
+
+Guideline: USE en dash for ranges and spans of time (“1985–2000”)
+Result: Error occurred
+Answer: No
+
+Guideline: USE hyphens to link a modifier with a noun (“pet-friendly hotel”) but only when the modifier comes before the noun (the hotel is pet friendly)
 Result: Error occurred
 Answer: No
